@@ -21,28 +21,28 @@ All todos are stored locally in a JSON file (`.todo-cli.json`) inside your proje
 1. Clone the repository:
    ```bash
    git clone https://github.com/Avi0304/typescript-practice.git
-   cd Todo ```
+   cd Todo 
 
 2. Install dependencies: 
     ```bash
         npm install
-    ```
+    
 3. Run:
     ```bash 
         npx ts-node src/index.ts <command> [args]
-    ```
+    
 
 ## Usage:
 
 1. ```bash 
         npx ts-node src/index.ts add "Buy groceries"
-    ```
+    
 2. ```bash 
         npx ts-node src/index.ts list
-    ```
+    
 3. ```bash 
         npx ts-node src/index.ts done 1
-    ```
+    
 4. ```bash 
         npx ts-node src/index.ts clear-completed
-    ```
+    
