@@ -17,22 +17,22 @@ A simple command-line application built with **TypeScript** that allows you to c
 2. Install dependencies: 
     ```bash
         npm install
-    ```
+ 
 3. Run:
     ```bash 
        npx ts-node src/index.ts <value> <from->to>
-    ```
+  
 
 ## Usage
 
 1. Length:
     ```bash 
     npx ts-node src/index.ts 100 cm->m
-    ```
+ 
 2. Temperature: 
 ```bash
     npx ts-node src/index.ts 100 C->F
-```
+
 
 
 
